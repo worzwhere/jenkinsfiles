@@ -19,8 +19,9 @@ pipeline {
             }
             steps{
                 build job: params.deployJobName
+                    }
                 }
             }
         }
     }
-}
+}    

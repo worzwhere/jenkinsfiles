@@ -1,4 +1,5 @@
 pipeline {
+    agent { docker { image + param.dockerImage } 
     stages {
         stage ('Build Image') {
             steps{

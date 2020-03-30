@@ -1,6 +1,4 @@
-@Library ('common') _
 pipeline {
-
     stages {
         stage ('Build Image') {
             steps{
